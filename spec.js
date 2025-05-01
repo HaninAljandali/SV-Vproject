@@ -2,7 +2,7 @@ describe("Account Form Validation", function () {
     it("should validate valid names", function () {
       expect(validateName("John")).toBeTrue();
     });
-  // HI hanin
+
     it("should invalidate short or numeric names", function () {
       expect(validateName("A")).toBeFalse();
       expect(validateName("123")).toBeFalse();
