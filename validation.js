@@ -1,7 +1,7 @@
 function validateName(name) {
   return /^[a-zA-Z]{2,}$/.test(name);
 }
-
+//Hi Hanin
 function validateEmail(email) {
   return /^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(email);
 }
